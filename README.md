@@ -62,6 +62,7 @@ creation of cell that is used for further analyses.
  from time courses e) averaging across all FC matrices for each subject and f) Fisher-z
  transformation of individual mean connectivity matrices.
 
+
 *Motion Correction*
 
 5.	`HCP_motion_data_import_resting_state`: Import of data for motion correction for 4 resting-
@@ -83,6 +84,7 @@ state fMRI scans and creation of respective table.
 
 9.	`HCP_find_subjects_with_complete_data`: Merging of all tables (behavioral data; SC matrices
  and FC matrices) and creation of final tables for subjects that have all data.
+
 
 *Compute Coupling*
 
@@ -142,6 +144,7 @@ positive and negative NMAs for each training fold and test fold. **Part 2** uses
 in part 1 to build multiple linear regression models that are then tested for their ability to 
 predict personality scores in the test samples. **Part 3** assesses the significance of the 
 prediction with a permutation test.
+
 
 *Latent NMA Prediction Models (only internal CV)*  
  
@@ -251,9 +254,8 @@ External functions and their licenses can be found in this folder.
 
 Copyright (cc) by Johanna L. Popp 
 
-Files of **SC_FC_Coupling_Task_Personality** by Johanna L. Popp are licensed under Creative Commons 
-Attribution-NonCommercial 4.0 International License.  
+<a rel="license" href="http://creativecommons.org/licenses/by-nc/4.0/"><img alt="Creative Commons License" style="border-width:0" src="https://i.creativecommons.org/l/by-nc/4.0/88x31.png" /></a><br />
 
-Note that external functions have other licenses that are provided in the `Functions` folder.
+Files of **SC_FC_Coupling_Task_Personality** by Johanna L. Popp are licensed under <a rel="license" href="http://creativecommons.org/licenses/by-nc/4.0/">Creative Commons Attribution-NonCommercial 4.0 International License</a>.
 
-
+Note that external functions have other licenses that are provided in the `Functions` folder. 
