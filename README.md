@@ -143,7 +143,8 @@ in part 1 to build multiple linear regression models that are then tested for th
 predict personality scores in the test samples. **Part 3** assesses the significance of the 
 prediction with a permutation test.
 
-*Latent NMA Prediction Models (only internal CV)*
+*Latent NMA Prediction Models (only internal CV)*  
+ 
 This folder contains one script for each trait-specific model combining region-specific SC-FC 
 coupling values from trait-relevant or trait-irrelevant tasks to predict individual personality scores. 
 
@@ -183,9 +184,48 @@ with a permutation test.
 
 *Test Model Difference Personality vs. Intelligence*
 
-7.  ' HCP_532_test_significance_model_difference': This script tests whether there are significant 
+7. `HCP_532_test_significance_model_difference`: This script tests whether there are significant 
 differences in prediction model performance between the internally cross-validated Basic NMA 
 Model (using coupling data from all conditions separately) and Expanded NMA Model in the main 
 sample when predicting intelligence scores vs. predicting personality scores. To do so, the actual 
 difference in prediction performance is compared to differences in prediction performances based on 
 permuted scores.
+
+### 4.2.2. Scripts for HCP – Lockbox Sample 
+In order to perform the analyses conducted in the lockbox sample, the scripts should be run in the 
+following order:
+
+1.	`HCP_lockbox_region_specific_coupling_all_conditions`: Computation of region-specific SC-FC 
+coupling (measure that is able to explain the highest variance in FC across all participants 
+most frequently).
+2.	`HCP_lockbox_whole_brain_coupling_plot_across_conditions`: Computation of coupling 
+measure-specific brain-average coupling values for all eight conditions, taking the mean 
+across the four measure-specific coupling values per condition and creating the violin plot 
+visualizing condition-specific differences in brain-average SC-FC coupling. 
+3.	`HCP_lockbox_whole_brain_coupling_plot_across_coupling_measures`: Computation of 
+coupling measure-specific brain-average coupling values for all eight conditions, taking 
+the mean across the eight condition-specific coupling values per coupling measure and creating 
+the violin plot visualizing coupling measure-specific differences in brain-average SC-FC 
+coupling. 
+4.	`HCP_lockbox_whole_brain_coupling_all_conditions_correlation_personality`: Computation of 
+coupling measure-specific brain-average coupling values for all eight conditions and 
+performance of partial correlations with individual personality scores. 
+5.	`HCP_internal_cross_validation_basic_NMA_prediction_model`: Conduction of the internal-
+cross-validation of the ‘Basic NMA Model’ that is built using two input predictor variables. 
+The predictor variables are derived from individual’s coupling values and extracted by using 
+group-based positive and group-based negative NMA masks. This script contains three parts: 
+**Part 1** partitions the sample into five different folds (considering family relations and 
+personality distribution) and creates positive and negative NMAs for each training sample 
+and test sample. **Part 2** uses the NMAs created in part 1 to build multiple linear regression 
+models that are then tested for their ability to predict personality scores in the test samples. 
+**Part 3** assesses the significance of the prediction with a permutation test.
+6.	`HCP_lockbox_internal_cross_validation_expanded_NMA_prediction_model`: Conduction of 
+the internal-cross-validation of the ‘Expanded NMA Model’ that is built using 14 input 
+predictor variables (two from each of the seven task conditions). The predictor variables are 
+derived from individual’s coupling values and extracted by using group-based positive and 
+group-based negative NMA masks. This script contains three parts: **Part 1** partitions the 
+sample into five different folds (considering family relations and personality distribution) and 
+creates positive and negative NMAs for each training sample and test sample. **Part 2** uses the 
+NMAs created in part 1 to build multiple linear regression models that are then tested for 
+their ability to predict personality scores in the test samples. **Part 3** assesses the significance 
+of the prediction with a permutation test.
