@@ -1,4 +1,4 @@
-### SC_FC_Coupling_Task_Personality
+# SC_FC_Coupling_Task_Personality
 
 ## 1. Scope 
 
@@ -103,9 +103,9 @@ primary main sample (70%) and a lockbox sample (30%) to be able to conduct an in
 replication. It takes the family structure in the HCP into account and makes sure that all 
 families are in the same sample to keep them truly independent from one another.
 
-## 4.2. Analysis Scripts 
+### 4.2. Analysis Scripts 
 
-### 4.2.1. Scripts for HCP - Main Sample 
+#### 4.2.1. Scripts for HCP - Main Sample 
 In order to perform the analyses conducted in the main sample, the scripts should be run in the 
 following order: 
 
@@ -191,7 +191,7 @@ sample when predicting intelligence scores vs. predicting personality scores. To
 difference in prediction performance is compared to differences in prediction performances based on 
 permuted scores.
 
-### 4.2.2. Scripts for HCP – Lockbox Sample 
+#### 4.2.2. Scripts for HCP – Lockbox Sample 
 In order to perform the analyses conducted in the lockbox sample, the scripts should be run in the 
 following order:
 
@@ -229,3 +229,31 @@ creates positive and negative NMAs for each training sample and test sample. **P
 NMAs created in part 1 to build multiple linear regression models that are then tested for 
 their ability to predict personality scores in the test samples. **Part 3** assesses the significance 
 of the prediction with a permutation test.
+
+### 4.3. Figures
+
+1. `Visualization_distribution_of_personality_scores`: Creation of histograms depicting the distribution 
+of personality scores in the main sample (HCP532) and the lockbox sample (HCP232). 
+2. `Visualization_HCP_532_NMAs_whole_sample_conscientiousness`: This script builds a positive and 
+negative Node-Measure Assignment (NMA) for the complete main sample (HCP532, no cross-
+validation) and plots them.
+3. `Visualization_prediction_results`: Creation of plots to visualize the results of the prediction 
+analyses (bar graphs and matrices).
+
+### 4.4. Functions 
+
+External functions and their licenses can be found in this folder. 
+
+## 5. Software requirements 
++ Matlab version 2021a
+
+## Copyright
+
+Copyright (cc) by Johanna L. Popp 
+
+Files of **SC_FC_Coupling_Task_Personality** by Johanna L. Popp are licensed under Creative Commons 
+Attribution-NonCommercial 4.0 International License.  
+
+Note that external functions have other licenses that are provided in the `Functions` folder.
+
+
