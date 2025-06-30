@@ -2,8 +2,8 @@
 
 ## 1. Scope 
 
-This repository contains scripts that were used to conduct the analyses in **"The Impact of Trait-
-Relevance: Predicting Personality from Structural-Functional Brain Network Coupling"** coauthored
+This repository contains scripts that were used to conduct the analyses in **"Trait-
+Relevance Improves Personality Prediction from Structural-Functional Brain Network Coupling"** coauthored
 by Johanna L. Popp, Jonas A. Thiele, Joshua Faskowitz, Caio Seguin, Olaf Sporns and Kirsten Hilger
 (doi: will be updated after publication). In brief, we investigated the relationship between the Big Five
 Personality traits and structural-functional brain network coupling (SC-FC coupling) operationalized
@@ -106,6 +106,10 @@ replication. It takes the family structure in the HCP into account and makes sur
 families are in the same sample to keep them truly independent from one another.
 
 ### 4.2. Analysis Scripts 
+Please note, that some of these scripts were also used to conduct analyses in the paper 
+**"Structural-functional brain network coupling during cognitive demand reveals intelligence-relevant
+communication strategies (https://doi.org/10.1038/s42003-025-08231-4)"**. Thus, outcome variables
+are sometimes still named 'intelligence', even though the personality scores were used in this analysis. 
 
 #### 4.2.1. Scripts for HCP - Main Sample 
 In order to perform the analyses conducted in the main sample, the scripts should be run in the 
