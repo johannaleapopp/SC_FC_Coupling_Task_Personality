@@ -106,7 +106,7 @@ replication. It takes the family structure in the HCP into account and makes sur
 families are in the same sample to keep them truly independent from one another.
 
 ### 4.2. Analysis Scripts 
-Please note, that some of these scripts were also used to conduct analyses in the paper 
+Please note that some of these scripts were also used to conduct analyses in the paper 
 **"Structural-functional brain network coupling during cognitive demand reveals intelligence-relevant
 communication strategies (https://doi.org/10.1038/s42003-025-08231-4)"**. Thus, outcome variables
 are sometimes still named 'intelligence', even though the personality scores were used in this analysis. 
