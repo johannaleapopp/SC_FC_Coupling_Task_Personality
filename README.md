@@ -160,7 +160,6 @@ personality distribution) and creates positive and negative NMAs for each traini
 and test sample. **Part 2** uses the NMAs created in part 1 to build multiple linear regression 
 models that are then tested for their ability to predict personality scores in the test samples. 
 **Part 3** assesses the significance of the prediction with a permutation test.
-<br>
 
 8.	`HCP_external_validation_basic_NMA_prediction_model_in_HCP_lockbox`: Conduction of the 
 external validation of the 'Basic NMA Model' that is built using two input predictor variables. 
