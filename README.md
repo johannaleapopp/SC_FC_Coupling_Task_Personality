@@ -76,8 +76,6 @@ state fMRI scans and creation of respective table.
  remaining scans that are used for confound regression. Lastly, FC matrices are excluded
  based on the motion criteria and ultimately saved as final FC matrices and mean FD values
  in a table used for further analyses.
-<br>
-
 9.	`HCP_find_subjects_with_complete_data`: Merging of all tables (behavioral data; SC matrices
  and FC matrices) and creation of final tables for subjects that have all data.
 
@@ -94,8 +92,6 @@ state fMRI scans and creation of respective table.
 specific coupling values by correlating regional connectivity profiles of the
  communication/similarity matrix (computed with `HCP_compute_coupling_measures_resting_state`)
  with the respective FC matrix.
-<br> 
-
 12.	`HCP_split_lockbox_sample`: This script is used to partition the main sample (HCP) into a 
 primary main sample (70%) and a lockbox sample (30%) to be able to conduct an initial
 replication. It takes the family structure in the HCP into account and makes sure that all 
