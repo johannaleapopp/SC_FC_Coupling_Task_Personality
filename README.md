@@ -3,7 +3,7 @@
 ## 1. Scope 
 
 This repository contains scripts that were used to conduct the analyses in **"Trait-
-Relevance Improves Personality Prediction from Structural-Functional Brain Network Coupling"** coauthored
+Relevant Tasks Improve Personality Prediction from Structural-Functional Brain Network Coupling"** coauthored
 by Johanna L. Popp, Jonas A. Thiele, Joshua Faskowitz, Caio Seguin, Olaf Sporns and Kirsten Hilger
 (doi: will be updated after publication). In brief, we investigated the relationship between the Big Five
 Personality traits and structural-functional brain network coupling (SC-FC coupling) operationalized
@@ -16,14 +16,10 @@ reach out under [johanna.popp@uni-wuerzburg.de].
 ## 2. Data 
 
 For the main sample analysis, data from the S1200 sample of the Human Connectome Project funded
-by the National Institute of Health were used (HCP; Van Essen et al., 2013). For the replication of
-results, we used data from the PIOP1 and PIOP2 samples collected as a part of the Amsterdam Open
-MRI Collection (AOMIC; Snoek et al., 2021). All data analyzed in the current study can be accessed 
+by the National Institute of Health were used (HCP; Van Essen et al., 2013). All data analyzed in the current study can be accessed 
 online:
 
 HCP: [https://www.humanconnectome.org/study/hcp-young-adult/data-releases/]
-AOMIC [PIOP1: https://openneuro.org/datasets/ds002785]
-AOMIC PIOP2: [https://openneuro.org/datasets/ds002790]
 
 ## 3. Preprocessing
 
