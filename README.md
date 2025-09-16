@@ -2,8 +2,7 @@
 
 ## 1. Scope 
 
-This repository contains scripts that were used to conduct the analyses in **"Trait-
-Relevant Tasks Improve Personality Prediction from Structural-Functional Brain Network Coupling"** coauthored
+This repository contains scripts that were used to conduct the analyses in **"Trait-Relevant Tasks Improve Personality Prediction from Structural-Functional Brain Network Coupling"** coauthored
 by Johanna L. Popp, Jonas A. Thiele, Joshua Faskowitz, Caio Seguin, Olaf Sporns and Kirsten Hilger
 (doi: will be updated after publication). In brief, we investigated the relationship between the Big Five
 Personality traits and structural-functional brain network coupling (SC-FC coupling) operationalized
