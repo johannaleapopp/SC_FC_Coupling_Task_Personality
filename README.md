@@ -182,7 +182,7 @@ with a permutation test.
 
 *Test Model Difference Personality vs. Intelligence*
 
-7. `HCP_532_test_significance_model_difference`: This script tests whether there are significant 
+10. `HCP_532_test_significance_model_difference`: This script tests whether there are significant 
 differences in prediction model performance between the internally cross-validated Basic NMA 
 Model (using coupling data from all conditions separately) and Expanded NMA Model in the main 
 sample when predicting intelligence scores vs. predicting personality scores. To do so, the actual 
