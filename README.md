@@ -34,10 +34,8 @@ assess individual structural connectivity, the minimally preprocessed DWI data p
 were used and we ran the MRtrix pipeline for DWI processing (Civier et al., 2019; Tournier et al.,
 2019; [https://github.com/civier/HCP-dMRI-connectome]). Probabilistic streamline tractography was
 employed (Smith et al., 2012) and only streamlines fitting the estimated white matter orientations
-from the diffusion image were kept. For the replication analysis, data from the AOMIC PIOP1 and
-PIOP2 samples was downloaded in minimally preprocessed form (using fMRIPrep version 1.4.1.;
-Esteban et al., 2019) and further processed similarly as in the main sample. Brain networks were
-constructed using a multimodal parcellation dividing the brain into 360 nodes (Glasser et al., 2016).
+from the diffusion image were kept. Brain networks were constructed using a multimodal parcellation
+dividing the brain into 360 nodes (Glasser et al., 2016).
 
 ## 4. Structure and Script Description
 
@@ -254,3 +252,27 @@ Copyright (cc) by Johanna L. Popp
 Files of **SC_FC_Coupling_Task_Personality** by Johanna L. Popp are licensed under <a rel="license" href="http://creativecommons.org/licenses/by-nc/4.0/">Creative Commons Attribution-NonCommercial 4.0 International License</a>.
 
 Note that external functions have other licenses that are provided in the `Functions` folder. 
+
+## References
+
+Civier, O., Smith, R. E., Yeh, C.-H., Connelly, A., & Calamante, F. (2019). Is removal of weak connections necessary for graph-theoretical analysis of dense weighted structural connectomes from diffusion MRI? NeuroImage, 194, 68–81. https://doi.org/10.1016/j.neuroimage.2019.02.039
+
+Cole, M. W., Ito, T., Schultz, D., Mill, R., Chen, R., & Cocuzza, C. (2019). Task activations produce spurious but systematic inflation of task functional connectivity estimates. NeuroImage, 189, 1–18. https://doi.org/10.1016/j.neuroimage.2018.12.054
+
+Esteban, O., Markiewicz, C. J., Blair, R. W., Moodie, C. A., Isik, A. I., Erramuzpe, A., Kent, J. D., Goncalves, M., DuPre, E., Snyder, M., Oya, H., Ghosh, S. S., Wright, J., Durnez, J., Poldrack, R. A., & Gorgolewski, K. J. (2019). fMRIPrep: A robust preprocessing pipeline for functional MRI. Nature Methods, 16(1), 111–116. https://doi.org/10.1038/s41592-018-0235-4
+
+Glasser, M. F., Coalson, T. S., Robinson, E. C., Hacker, C. D., Harwell, J., Yacoub, E., Ugurbil, K., Andersson, J., Beckmann, C. F., Jenkinson, M., Smith, S. M., & Van Essen, D. C. (2016). A multi-modal parcellation of human cerebral cortex. Nature, 536(7615), 171–178. https://doi.org/10.1038/nature18933
+
+Glasser, M. F., Sotiropoulos, S. N., Wilson, J. A., Coalson, T. S., Fischl, B., Andersson, J. L., Xu, J., Jbabdi, S., Webster, M., Polimeni, J. R., Van Essen, D. C., & Jenkinson, M. (2013). The minimal preprocessing pipelines for the Human Connectome Project. NeuroImage, 80, 105–124. https://doi.org/10.1016/j.neuroimage.2013.04.127
+
+Parkes, L., Fulcher, B., Yücel, M., & Fornito, A. (2018). An evaluation of the efficacy, reliability, and sensitivity of motion correction strategies for resting-state functional MRI. NeuroImage, 171, 415–436. https://doi.org/10.1016/j.neuroimage.2017.12.073
+
+Smith, R. E., Tournier, J.-D., Calamante, F., & Connelly, A. (2012). Anatomically-constrained tractography: Improved diffusion MRI streamlines tractography through effective use of anatomical information. NeuroImage, 62(3), 1924–1938. https://doi.org/10.1016/j.neuroimage.2012.06.005
+
+Tournier, J.-D., Smith, R., Raffelt, D., Tabbara, R., Dhollander, T., Pietsch, M., Christiaens, D., Jeurissen, B., Yeh, C.-H., & Connelly, A. (2019). MRtrix3: A fast, flexible and open software framework for medical image processing and visualisation. NeuroImage, 202, 116137. https://doi.org/10.1016/j.neuroimage.2019.116137
+
+Van Essen, D. C., Smith, S. M., Barch, D. M., Behrens, T. E. J., Yacoub, E., & Ugurbil, K. (2013). The WU-Minn Human Connectome Project: An Overview. NeuroImage, 80, 62–79. https://doi.org/10.1016/j.neuroimage.2013.05.041
+
+Zamani Esfahlani, F., Faskowitz, J., Slack, J., Mišić, B., & Betzel, R. F. (2022). Local structure-function relationships in human brain networks across the lifespan. Nature Communications, 13(1), 2053. https://doi.org/10.1038/s41467-022-29770-y
+
+
